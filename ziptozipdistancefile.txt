@@ -1,4 +1,4 @@
-fromZip, toZip, distance
+fromZip, toZip, distanceInMiles
 601, 601, 0.0
 601, 602, 30.563077815533525
 601, 603, 26.340322224928315
