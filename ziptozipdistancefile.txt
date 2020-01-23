@@ -2,121 +2,25 @@ fromZip, toZip, distanceInMiles
 601, 601, 0.0
 601, 602, 30.563077815533525
 601, 603, 26.340322224928315
-601, 606, 13.620562144517933
-601, 610, 26.751859821690307
-601, 49006Distance is > 200 miles
-601, 49007Distance is > 200 miles
-601, 18962Distance is > 200 miles
-601, 18964Distance is > 200 miles
-601, 18966Distance is > 200 miles
-601, 18969Distance is > 200 miles
+601, 18969 Distance is >= 200 miles
+601, 49006 Distance is >= 200 miles
 602, 601, 30.563077815533525
 602, 602, 0.0
 602, 603, 5.360856469703298
-602, 606, 17.45201983833691
-602, 610, 4.128131563167622
-602, 49006Distance is > 200 miles
-602, 49007Distance is > 200 miles
-602, 18962Distance is > 200 miles
-602, 18964Distance is > 200 miles
-602, 18966Distance is > 200 miles
-602, 18969Distance is > 200 miles
+602, 18969 Distance is >= 200 miles
+602, 49006 Distance is >= 200 miles
 603, 601, 26.340322224928315
 603, 602, 5.360856469703298
 603, 603, 0.0
-603, 606, 14.095061930012145
-603, 610, 4.577246636127476
-603, 49006Distance is > 200 miles
-603, 49007Distance is > 200 miles
-603, 18962Distance is > 200 miles
-603, 18964Distance is > 200 miles
-603, 18966Distance is > 200 miles
-603, 18969Distance is > 200 miles
-606, 601, 13.620562144517933
-606, 602, 17.45201983833691
-606, 603, 14.095061930012145
-606, 606, 0.0
-606, 610, 13.439494831305387
-606, 49006Distance is > 200 miles
-606, 49007Distance is > 200 miles
-606, 18962Distance is > 200 miles
-606, 18964Distance is > 200 miles
-606, 18966Distance is > 200 miles
-606, 18969Distance is > 200 miles
-610, 601, 26.751859821690307
-610, 602, 4.128131563167622
-610, 603, 4.577246636127476
-610, 606, 13.439494831305387
-610, 610, 0.0
-610, 49006Distance is > 200 miles
-610, 49007Distance is > 200 miles
-610, 18962Distance is > 200 miles
-610, 18964Distance is > 200 miles
-610, 18966Distance is > 200 miles
-610, 18969Distance is > 200 miles
-49006, 601Distance is > 200 miles
-49006, 602Distance is > 200 miles
-49006, 603Distance is > 200 miles
-49006, 606Distance is > 200 miles
-49006, 610Distance is > 200 miles
-49006, 49006, 0.0
-49006, 49007, 2.6961047797368662
-49006, 18962Distance is > 200 miles
-49006, 18964Distance is > 200 miles
-49006, 18966Distance is > 200 miles
-49006, 18969Distance is > 200 miles
-49007, 601Distance is > 200 miles
-49007, 602Distance is > 200 miles
-49007, 603Distance is > 200 miles
-49007, 606Distance is > 200 miles
-49007, 610Distance is > 200 miles
-49007, 49006, 2.6961047797368662
-49007, 49007, 0.0
-49007, 18962Distance is > 200 miles
-49007, 18964Distance is > 200 miles
-49007, 18966Distance is > 200 miles
-49007, 18969Distance is > 200 miles
-18962, 601Distance is > 200 miles
-18962, 602Distance is > 200 miles
-18962, 603Distance is > 200 miles
-18962, 606Distance is > 200 miles
-18962, 610Distance is > 200 miles
-18962, 49006Distance is > 200 miles
-18962, 49007Distance is > 200 miles
-18962, 18962, 0.0
-18962, 18964, 3.955805032411012
-18962, 18966, 18.53952939269874
-18962, 18969, 6.936213122800224
-18964, 601Distance is > 200 miles
-18964, 602Distance is > 200 miles
-18964, 603Distance is > 200 miles
-18964, 606Distance is > 200 miles
-18964, 610Distance is > 200 miles
-18964, 49006Distance is > 200 miles
-18964, 49007Distance is > 200 miles
-18964, 18962, 3.955805032411012
-18964, 18964, 0.0
-18964, 18966, 22.260532275150442
-18964, 18969, 3.1227075947036607
-18966, 601Distance is > 200 miles
-18966, 602Distance is > 200 miles
-18966, 603Distance is > 200 miles
-18966, 606Distance is > 200 miles
-18966, 610Distance is > 200 miles
-18966, 49006Distance is > 200 miles
-18966, 49007Distance is > 200 miles
-18966, 18962, 18.53952939269874
-18966, 18964, 22.260532275150442
-18966, 18966, 0.0
-18966, 18969, 25.372198352734717
-18969, 601Distance is > 200 miles
-18969, 602Distance is > 200 miles
-18969, 603Distance is > 200 miles
-18969, 606Distance is > 200 miles
-18969, 610Distance is > 200 miles
-18969, 49006Distance is > 200 miles
-18969, 49007Distance is > 200 miles
-18969, 18962, 6.936213122800224
-18969, 18964, 3.1227075947036607
-18969, 18966, 25.372198352734717
+603, 18969 Distance is >= 200 miles
+603, 49006 Distance is >= 200 miles
+18969, 601 Distance is >= 200 miles
+18969, 602 Distance is >= 200 miles
+18969, 603 Distance is >= 200 miles
 18969, 18969, 0.0
+18969, 49006 Distance is >= 200 miles
+49006, 601 Distance is >= 200 miles
+49006, 602 Distance is >= 200 miles
+49006, 603 Distance is >= 200 miles
+49006, 18969 Distance is >= 200 miles
+49006, 49006, 0.0
