@@ -14,7 +14,7 @@ def tozipdistances(file_name, fromZip, fromlat, fromlong, fileziptozipdistance):
                 toZip = row[0]
                 tolat = float(row[1])
                 tolong = float(row[2])
-                #print('         ', line_count,'ToZip: ', toZip, tolat, tolong);
+                print('         ', line_count,'ToZip: ', toZip, tolat, tolong);
                 distance.distance(fromZip, fromlat, fromlong, toZip, tolat, tolong, fileziptozipdistance)
                 line_count += 1
 
