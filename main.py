@@ -4,11 +4,13 @@ import geopy.distance
 
 try:
 
+    #input file
     infile_name = "zipcodes0.csv";
     open_fromzip_infile = csv.DictReader(open(infile_name));
 
+    #output file
     outfile_name = "outfile.csv";
-    open(outfile_name, 'w').close(); # deletes output file content
+    open(outfile_name, 'w').close(); # deletes output file content before recreation
     open_outfile = open(outfile_name, "a");
     open_outfile.write("fromZip, fromLat, fromLong, toZip, toLat, toLong, distanceBetweenZipsInMiles\n")
 
@@ -36,7 +38,6 @@ try:
                     outputrow = str(fromziprow['zip'] + ", " + fromziprow["lat"] + ", " + fromziprow["long"] + ", " + toziprow['zip'] + ", " + toziprow["lat"] + ", " + toziprow["long"] + ", " + str(ziptozipdistance))
                     open_outfile.write(outputrow + "\n");
             except Exception as e:
-                #print("Exception encountered: {}".format(e))
                 print("           " + str(fromzip) + ", " + str(tozip) + ", " + " Error encountered: {}".format(e) + "\n")
                 outputrow = str(fromziprow['zip'] + ", " + fromziprow["lat"] + ", " + fromziprow["long"] + ", " + toziprow['zip'] + ", " + toziprow["lat"] + ", " + toziprow["long"]) + ", " + " Error encountered: {}".format(e)
                 open_outfile.write(outputrow + "\n")
